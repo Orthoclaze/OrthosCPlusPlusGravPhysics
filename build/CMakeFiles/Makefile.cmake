@@ -9,9 +9,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../CPPfiles/CMakeLists.txt"
-  "../Hello/CMakeLists.txt"
   "../Main/CMakeLists.txt"
-  "../SomeFunctions/CMakeLists.txt"
   "CMakeFiles/CMakeCCompiler.cmake"
   "CMakeFiles/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeSystem.cmake"
@@ -39,16 +37,12 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Hello/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "SomeFunctionsBin/CMakeFiles/CMakeDirectoryInformation.cmake"
   "CPPfilesBin/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Main/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "Hello/CMakeFiles/Hello.dir/DependInfo.cmake"
-  "SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/DependInfo.cmake"
   "CPPfilesBin/CMakeFiles/CPPfiles.dir/DependInfo.cmake"
   "Main/CMakeFiles/main.dir/DependInfo.cmake"
   )

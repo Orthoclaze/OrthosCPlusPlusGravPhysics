@@ -34,8 +34,6 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/vimes/graming/c++/tryagain/scrubsomemore/build/Hello/cmake_install.cmake")
-  INCLUDE("/home/vimes/graming/c++/tryagain/scrubsomemore/build/SomeFunctionsBin/cmake_install.cmake")
   INCLUDE("/home/vimes/graming/c++/tryagain/scrubsomemore/build/CPPfilesBin/cmake_install.cmake")
   INCLUDE("/home/vimes/graming/c++/tryagain/scrubsomemore/build/Main/cmake_install.cmake")
 

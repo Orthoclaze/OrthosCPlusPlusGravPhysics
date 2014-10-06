@@ -1,0 +1,13 @@
+I'll get this project cleaned up soon, for now the important parts are:
+/CPPfiles: Containing all the c++ code
+/Main: Containing main.cpp
+/build: Where all the building happens
+
+Build process:
+If on Linux with cmake installed see "easyLinuxBuild" (and g++ and make, omitted due to ubiquity)
+
+Otherwise enter "build" directory and enter following:
+	cmake ..
+	make
+	./main
+if all goes well.

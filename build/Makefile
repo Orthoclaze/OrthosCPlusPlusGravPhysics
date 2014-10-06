@@ -102,32 +102,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hello
-
-# Build rule for target.
-Hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hello
-.PHONY : Hello
-
-# fast build rule for target.
-Hello/fast:
-	$(MAKE) -f Hello/CMakeFiles/Hello.dir/build.make Hello/CMakeFiles/Hello.dir/build
-.PHONY : Hello/fast
-
-#=============================================================================
-# Target rules for targets named SomeFunctions
-
-# Build rule for target.
-SomeFunctions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SomeFunctions
-.PHONY : SomeFunctions
-
-# fast build rule for target.
-SomeFunctions/fast:
-	$(MAKE) -f SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build.make SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build
-.PHONY : SomeFunctions/fast
-
-#=============================================================================
 # Target rules for targets named CPPfiles
 
 # Build rule for target.
@@ -161,8 +135,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Hello"
-	@echo "... SomeFunctions"
 	@echo "... CPPfiles"
 	@echo "... main"
 .PHONY : help

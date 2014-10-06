@@ -56,106 +56,6 @@ CMAKE_SOURCE_DIR = /home/vimes/graming/c++/tryagain/scrubsomemore
 CMAKE_BINARY_DIR = /home/vimes/graming/c++/tryagain/scrubsomemore/build
 
 #=============================================================================
-# Directory level rules for directory Hello
-
-# Convenience name for "all" pass in the directory.
-Hello/all: Hello/CMakeFiles/Hello.dir/all
-.PHONY : Hello/all
-
-# Convenience name for "clean" pass in the directory.
-Hello/clean: Hello/CMakeFiles/Hello.dir/clean
-.PHONY : Hello/clean
-
-# Convenience name for "preinstall" pass in the directory.
-Hello/preinstall:
-.PHONY : Hello/preinstall
-
-#=============================================================================
-# Target rules for target Hello/CMakeFiles/Hello.dir
-
-# All Build rule for target.
-Hello/CMakeFiles/Hello.dir/all:
-	$(MAKE) -f Hello/CMakeFiles/Hello.dir/build.make Hello/CMakeFiles/Hello.dir/depend
-	$(MAKE) -f Hello/CMakeFiles/Hello.dir/build.make Hello/CMakeFiles/Hello.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles  4
-	@echo "Built target Hello"
-.PHONY : Hello/CMakeFiles/Hello.dir/all
-
-# Include target in all.
-all: Hello/CMakeFiles/Hello.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-Hello/CMakeFiles/Hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 Hello/CMakeFiles/Hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 0
-.PHONY : Hello/CMakeFiles/Hello.dir/rule
-
-# Convenience name for target.
-Hello: Hello/CMakeFiles/Hello.dir/rule
-.PHONY : Hello
-
-# clean rule for target.
-Hello/CMakeFiles/Hello.dir/clean:
-	$(MAKE) -f Hello/CMakeFiles/Hello.dir/build.make Hello/CMakeFiles/Hello.dir/clean
-.PHONY : Hello/CMakeFiles/Hello.dir/clean
-
-# clean rule for target.
-clean: Hello/CMakeFiles/Hello.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory SomeFunctionsBin
-
-# Convenience name for "all" pass in the directory.
-SomeFunctionsBin/all: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all
-.PHONY : SomeFunctionsBin/all
-
-# Convenience name for "clean" pass in the directory.
-SomeFunctionsBin/clean: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/clean
-.PHONY : SomeFunctionsBin/clean
-
-# Convenience name for "preinstall" pass in the directory.
-SomeFunctionsBin/preinstall:
-.PHONY : SomeFunctionsBin/preinstall
-
-#=============================================================================
-# Target rules for target SomeFunctionsBin/CMakeFiles/SomeFunctions.dir
-
-# All Build rule for target.
-SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all:
-	$(MAKE) -f SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build.make SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/depend
-	$(MAKE) -f SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build.make SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles  5 6
-	@echo "Built target SomeFunctions"
-.PHONY : SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all
-
-# Include target in all.
-all: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 0
-.PHONY : SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/rule
-
-# Convenience name for target.
-SomeFunctions: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/rule
-.PHONY : SomeFunctions
-
-# clean rule for target.
-SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/clean:
-	$(MAKE) -f SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/build.make SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/clean
-.PHONY : SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/clean
-
-# clean rule for target.
-clean: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Directory level rules for directory CPPfilesBin
 
 # Convenience name for "all" pass in the directory.
@@ -224,11 +124,10 @@ Main/preinstall:
 # Target rules for target Main/CMakeFiles/main.dir
 
 # All Build rule for target.
-Main/CMakeFiles/main.dir/all: SomeFunctionsBin/CMakeFiles/SomeFunctions.dir/all
 Main/CMakeFiles/main.dir/all: CPPfilesBin/CMakeFiles/CPPfiles.dir/all
 	$(MAKE) -f Main/CMakeFiles/main.dir/build.make Main/CMakeFiles/main.dir/depend
 	$(MAKE) -f Main/CMakeFiles/main.dir/build.make Main/CMakeFiles/main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles  4
 	@echo "Built target main"
 .PHONY : Main/CMakeFiles/main.dir/all
 
@@ -238,7 +137,7 @@ all: Main/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 Main/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 Main/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vimes/graming/c++/tryagain/scrubsomemore/build/CMakeFiles 0
 .PHONY : Main/CMakeFiles/main.dir/rule

@@ -85,7 +85,6 @@ main_EXTERNAL_OBJECTS =
 Main/main: Main/CMakeFiles/main.dir/main.cpp.o
 Main/main: Main/CMakeFiles/main.dir/build.make
 Main/main: CPPfilesBin/libCPPfiles.a
-Main/main: SomeFunctionsBin/libSomeFunctions.a
 Main/main: Main/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main"
 	cd /home/vimes/graming/c++/tryagain/scrubsomemore/build/Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
