@@ -11,3 +11,5 @@ Otherwise enter "build" directory and enter following:
 	make
 	./main
 if all goes well.
+
+If cmake complains about the cache being in another directory from the latest build, delete "build/CMakeCache.txt" and retry.

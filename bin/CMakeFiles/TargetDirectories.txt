@@ -1,4 +1,0 @@
-/home/vimes/graming/c++/tryagain/scrubsomemore/bin/bin/CMakeFiles/CPPfiles.dir
-/home/vimes/graming/c++/tryagain/scrubsomemore/bin/Hello/CMakeFiles/Hello.dir
-/home/vimes/graming/c++/tryagain/scrubsomemore/bin/bin/CMakeFiles/SomeFunctions.dir
-/home/vimes/graming/c++/tryagain/scrubsomemore/bin/Main/CMakeFiles/main.dir
