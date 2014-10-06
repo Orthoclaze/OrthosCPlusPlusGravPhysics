@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vimes/graming/c++/tryagain/scrubsomemore/Main/main.cpp
+myclass.h
+/home/vimes/graming/c++/tryagain/scrubsomemore/Main/myclass.h
+

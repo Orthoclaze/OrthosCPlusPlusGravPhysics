@@ -1,0 +1,20 @@
+// in SecondClass.h
+typedef struct {
+	double* objects;
+	int exception;
+} System;
+
+class PointObject
+{
+public:
+  void print();
+  void step();
+  void setPosition(double x, double y, double z);
+  void setVelocity(double x, double y, double z);
+  void passObjects(double* array, int indexException);
+protected:
+  double position[3];
+  double velocity[3];
+  double mass;
+  //System system;
+};

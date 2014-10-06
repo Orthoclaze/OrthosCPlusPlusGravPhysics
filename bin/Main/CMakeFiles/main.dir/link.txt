@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic -L/home/vimes/graming/c++/tryagain/scrubsomemore/bin/bin ../bin/libCPPfiles.a -Wl,-rpath,/home/vimes/graming/c++/tryagain/scrubsomemore/bin/bin 

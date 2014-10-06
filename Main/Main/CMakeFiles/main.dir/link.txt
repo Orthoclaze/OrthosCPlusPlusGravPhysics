@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/main.dir/main.c.o  -o main -rdynamic -L/home/vimes/graming/c/scrubsomemore/Main/bin ../bin/libSomeFunctions.a -Wl,-rpath,/home/vimes/graming/c/scrubsomemore/Main/bin 

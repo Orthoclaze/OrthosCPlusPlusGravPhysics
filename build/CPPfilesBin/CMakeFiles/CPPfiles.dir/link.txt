@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCPPfiles.a  CMakeFiles/CPPfiles.dir/PhysicsWorld.cpp.o CMakeFiles/CPPfiles.dir/PointObject.cpp.o CMakeFiles/CPPfiles.dir/ObjectSystem.cpp.o
+/usr/bin/ranlib libCPPfiles.a

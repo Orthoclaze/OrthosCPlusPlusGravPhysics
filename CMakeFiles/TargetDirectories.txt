@@ -1,0 +1,3 @@
+/home/vimes/graming/c/scrubsomemore/Hello/CMakeFiles/Hello.dir
+/home/vimes/graming/c/scrubsomemore/bin/CMakeFiles/SomeFunctions.dir
+/home/vimes/graming/c/scrubsomemore/Main/CMakeFiles/main.dir

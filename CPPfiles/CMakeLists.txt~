@@ -1,0 +1,1 @@
+add_library (CPPfiles myclass.h myclass.cpp SecondClass.h SecondClass.cpp)

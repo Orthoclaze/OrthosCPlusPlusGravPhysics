@@ -1,0 +1,9 @@
+//in main.cpp
+#include "myclass.h"  // defines MyClass
+
+int main()
+{
+  PhysicsWorld a; // no longer produces an error, because MyClass is defined
+  a.foo();
+  return 0;
+}

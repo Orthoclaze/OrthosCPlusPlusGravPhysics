@@ -1,0 +1,10 @@
+#include "ObjectSystem.h"
+
+class ObjectSystem {
+public:
+	double getDeltaV(int asker);
+	void setMembers(PointObject* objects, int passSize);
+protected:
+	PointObject* objects;
+	int size;
+};
