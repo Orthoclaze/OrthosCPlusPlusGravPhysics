@@ -1,2 +1,0 @@
-/usr/bin/ar cr libSomeFunctions.a  CMakeFiles/SomeFunctions.dir/SomeFunctionsPRIVATE.c.o CMakeFiles/SomeFunctions.dir/SomeFunctionsPUBLIC.c.o
-/usr/bin/ranlib libSomeFunctions.a

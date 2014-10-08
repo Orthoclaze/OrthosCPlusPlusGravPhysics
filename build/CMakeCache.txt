@@ -164,12 +164,6 @@ HELLO_BINARY_DIR:STATIC=/home/vimes/graming/c++/tryagain/scrubsomemore/build
 //Value Computed by CMake
 HELLO_SOURCE_DIR:STATIC=/home/vimes/graming/c++/tryagain/scrubsomemore
 
-//Dependencies for target
-Hello_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-SomeFunctions_LIB_DEPENDS:STATIC=
-
 
 ########################
 # INTERNAL cache entries

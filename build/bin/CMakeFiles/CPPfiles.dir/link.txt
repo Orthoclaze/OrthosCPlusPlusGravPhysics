@@ -1,2 +1,0 @@
-/usr/bin/ar cr libCPPfiles.a  CMakeFiles/CPPfiles.dir/myclass.cpp.o
-/usr/bin/ranlib libCPPfiles.a

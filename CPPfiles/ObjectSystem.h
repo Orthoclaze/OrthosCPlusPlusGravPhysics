@@ -3,10 +3,15 @@
 
 #include "PointObject.h"
 
+#define NUMBEROFOBJECTS 5 
+
 class ObjectSystem {
 public:
+	// Important
 	void step();
 	void getDeltaV(double* deltaV, int asker);
+
+	// Utility Functions:
 	void setMembers(PointObject* objects, int passSize);
 protected:
 	PointObject* objects;

@@ -8,7 +8,7 @@
 using namespace std;
 
 void PhysicsWorld::print() {
-	for (int i=0; i<2; i++) {
+	for (int i=0; i<NUMBEROFOBJECTS; i++) {
 		cout << "Object " << i << " :"; 
 		objects[i].print();
 	};
@@ -20,13 +20,12 @@ void PhysicsWorld::step() {
 }
 
 PhysicsWorld::PhysicsWorld() {
-	objects[0].setPosition(2.0,2.0,2.0);
-	objects[0].setVelocity(0.1,0.0,0.0);
-	objects[1].setPosition(-2.0,-2.0,-2.0);
-	objects[1].setVelocity(0.0,0.1,0.0);
-	objects[0].setMass(1.0);
-	objects[1].setMass(1.0);
+	for(int i=0;i<NUMBEROFOBJECTS;i++) {
+		objects[i].setPosition(i*1.0,0.0,0.0);
+		objects[i].setVelocity(0.0,i*1.0,i*2.0);
+		objects[i].setMass(1.0);
+	}
 
 	PointObject* pass = objects;
-	obSys.setMembers(pass,2);
+	obSys.setMembers(pass,NUMBEROFOBJECTS);
 }

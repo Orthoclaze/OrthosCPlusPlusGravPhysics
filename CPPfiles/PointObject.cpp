@@ -6,17 +6,9 @@
  
 using namespace std;
 
-void PointObject::print() {
-	cout << "Position is " 
-		<< position[0] << " "
-		<< position[1] << " "
-		<< position[2] << " ";
-	cout << "Velocity is " 
-		<< velocity[0] << " "
-		<< velocity[1] << " "
-		<< velocity[2] << " "
-		<< endl;
-}
+/*
+*    Important
+*/
 
 void PointObject::step(double* deltaV) {
 	for (int i=0; i<3; i++) {
@@ -26,11 +18,40 @@ void PointObject::step(double* deltaV) {
 }
 
 /*
-void PointObject::passObjects(double* array,int indexException) {
-	system.exception = indexException;
-	system.objects = array;
+*  Here a pointer is exposed to the object system,
+*  the object system writes the sum of the forces exerted by
+*  its members to this memory location at each step before
+*  its added to the velocity at each time step. 
+*/
+double* PointObject::getLatestDeltaV() {
+        return latestDeltaV;
+}
+
+/*
+PointObject::PointObject(int number) {
+	for(int i=0;i<3;i++) {
+		position[i] = 1.0;
+		velocity[i] = 1.0;
+	};
+	mass = 1.0;
 }
 */
+
+/*
+*    Utility Functions:
+*/
+
+void PointObject::print() {
+        cout << "Position is "
+                << position[0] << " "
+                << position[1] << " "
+                << position[2] << " ";
+        cout << "Velocity is "
+                << velocity[0] << " "
+                << velocity[1] << " "
+                << velocity[2] << " "
+                << endl;
+}
 
 void PointObject::setPosition(double x, double y, double z) {
 	position[0] = x;
@@ -56,12 +77,4 @@ double* PointObject::getPosition() {
 	return position;	
 }
 
-double* PointObject::getLatestDeltaV() {
-	return latestDeltaV;
-}
 
-/*
-void setObSys(ObjectSystem* passObSys) {
-	obSys = passObSys;
-}
-*/

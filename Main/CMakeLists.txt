@@ -9,4 +9,5 @@ link_directories (${HELLO_BINARY_DIR}/CPPfilesBin)
 add_executable (main main.cpp)
 
 # Link the executable to the Hello library.
+# target_link_libraries (main jsoncpp)
 target_link_libraries (main CPPfiles)

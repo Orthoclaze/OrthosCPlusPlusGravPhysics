@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+../CPPfiles/ObjectSystem.h
+PointObject.h
+../CPPfiles/PointObject.h
+
+../CPPfiles/PhysicsWorld.h
+PointObject.h
+../CPPfiles/PointObject.h
+ObjectSystem.h
+../CPPfiles/ObjectSystem.h
+
+../CPPfiles/PointObject.h
+PointObject.h
+../CPPfiles/PointObject.h
+
+/home/vimes/graming/c++/tryagain/scrubsomemore/Main/main.cpp
+PhysicsWorld.h
+/home/vimes/graming/c++/tryagain/scrubsomemore/Main/PhysicsWorld.h
+
